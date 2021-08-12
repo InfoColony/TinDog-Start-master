@@ -21,11 +21,16 @@ h2{
   font-weight: 900;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
+}
+.img-div{
+  position: relative;
 }
 .img-rotate{
   transform: rotate(20deg);
-  width: 60%;
+  width: 50%;
+  position: absolute;
+  right: 25%;
 }
 
 /* navigation Bar */
@@ -54,6 +59,9 @@ h2{
 
 #features{
   text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 h3{
@@ -115,5 +123,10 @@ h3{
 /* pricing section */
 
 #pricing{
-
+  padding: 5% 10%;
+  text-align: center;
+}
+.test{
+  margin-left: 0;
+  margin-right: 0;
 }
