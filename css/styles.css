@@ -153,6 +153,13 @@ h3{
 /* Footer section */
 
 #footer{
+  padding: 8%;
   background-color: #fff;
   text-align: center;
+}
+.f-icons{
+  margin: 3%;
+}
+.f-item{
+  margin: -2%;
 }
