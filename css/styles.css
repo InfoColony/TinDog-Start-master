@@ -163,3 +163,18 @@ h3{
 .f-item{
   margin: -2%;
 }
+
+
+@media  (max-width:991px) {
+
+  .img-rotate{
+    position: static;
+    transform: rotate(0);
+  }
+  .title{
+    text-align: center;
+  }
+  .f-item{
+    margin-bottom: 2%;
+  }
+}
